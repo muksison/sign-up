@@ -1,0 +1,142 @@
+h*,*:before,*:after{
+	padding:0;
+	margin: 0;
+	border:0;
+	box-sizing: border-box;
+}
+
+html, body{
+	height:100%;
+	font-family: 'Quicksand', sans-serif;
+}
+$bgcolor1:#f5fcfd;
+$bgcolor2:white;
+$textcolor:#929292;
+$color1:#0f7bff;
+
+.text{
+	font-size: 16px;
+	font-weight: 400;
+	color:$textcolor;
+}
+
+ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+.wrapper {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+// section1
+
+
+
+// section2
+
+
+//section3
+
+.section3{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	max-width: 1920px;
+	background-color: $bgcolor1;
+	padding: 129px 10px 233px 10px;
+}
+
+.s3__wrapper {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	width: 100%;
+	max-width: 1140px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.s3__content1 {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	max-width: 457px;
+
+	&__title{
+		font-size: 36px;
+		font-weight: 700;
+		color: $color1;
+		margin-bottom: 32px;
+	}
+	
+	&__pics{
+		display: flex;
+		width: 100%;
+		max-width: 78px;
+		justify-content: space-between;
+		margin-top: 38px;
+	}
+}
+
+.s3__content2__wrapper {
+	display: flex;
+	width: 100%;
+	max-width: 493px;
+	justify-content: space-between;
+}
+
+
+.s3__content2 {
+
+	&__title{
+		font-size: 18px;
+		font-weight: 500;
+	}
+
+	&__list{
+		margin-top: 36px;
+		& li{
+			margin-bottom:20px; 
+	}	}
+}
+
+.s3__content2__list__item.first a{
+	color: $color1;
+};
+
+
+
+
+// --------------------------------------------------------------
+// --------------------------------------------------------------
+// --------------------------------------------------------------
+// Медиа запросы
+// --------------------------------------------------------------
+// --------------------------------------------------------------
+
+
+
+@media (max-width: 950px){
+	.s3__wrapper{
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+		text-align: center;
+	}
+
+	.s3__content1{
+		align-items: center;
+		margin-bottom: 40px;
+	}
+}
+
+
+
