@@ -15,7 +15,7 @@
   .s1__content__space {
     font-size: 16px;
     font-weight: 400;
-    margin: 50px 0; }
+    margin: 25px 0; }
 
 .s1__content1 {
   display: flex;
@@ -26,7 +26,7 @@
   max-width: 731px;
   text-align: center; }
   .s1__content1 p {
-    margin-bottom: 47px; }
+    margin-bottom: 30px; }
   .s1__content1__title {
     font-size: 32px;
     font-weight: 500;
@@ -86,7 +86,7 @@
 #input1, #input2, #input3, #input4 {
   width: 100%;
   max-width: 360px;
-  padding: 25px;
+  padding: 15px;
   border-radius: 5px;
   border: 1px solid #dcdcdc;
   font-family: Quicksand;

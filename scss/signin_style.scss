@@ -17,7 +17,7 @@
 	&__space{
 		font-size: 16px;
 		font-weight: 400;
-		margin: 50px 0;
+		margin: 25px 0;
 	}
 }
 
@@ -30,7 +30,7 @@
 	max-width: 731px;
 	text-align: center;
 	& p{
-		margin-bottom: 47px;
+		margin-bottom: 30px;
 	}
 
 	&__title{
@@ -112,7 +112,7 @@
 #input1,#input2,#input3,#input4{
 	width: 100%;
 	max-width: 360px;
-	padding:25px;
+	padding: 15px;
 	border-radius: 5px;
 	border: 1px solid #dcdcdc;
 	font-family: Quicksand;
@@ -121,17 +121,3 @@
 	margin-bottom: 30px;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-.s1__content2__auth {}
-.s1__content2__questions {}
-.s1__content2__logIn {}
